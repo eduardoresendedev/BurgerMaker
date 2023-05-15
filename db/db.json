@@ -1,0 +1,145 @@
+{
+  "ingredientes": {
+    "paes": [
+      {
+        "id": 1,
+        "tipo": "Tradicional"
+      },
+      {
+        "id": 2,
+        "tipo": "Integral"
+      },
+      {
+        "id": 3,
+        "tipo": "Parmesão e Orégano"
+      },
+      {
+        "id": 4,
+        "tipo": "3 Queijos"
+      },
+      {
+        "id": 5,
+        "tipo": "Italiano Branco"
+      }
+    ],
+    "carnes": [
+      {
+        "id": 1,
+        "tipo": "Maminha"
+      },
+      {
+        "id": 2,
+        "tipo": "Alcatra"
+      },
+      {
+        "id": 3,
+        "tipo": "Picanha"
+      },
+      {
+        "id": 4,
+        "tipo": "File de Frango"
+      },
+      {
+        "id": 5,
+        "tipo": "Veggie burger"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Cheddar"
+      },
+      {
+        "id": 3,
+        "tipo": "Alface"
+      },
+      {
+        "id": 4,
+        "tipo": "Tomate"
+      },
+      {
+        "id": 5,
+        "tipo": "Cebola roxa"
+      },
+      {
+        "id": 6,
+        "tipo": "Pepino"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Em produção"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizado"
+    }
+  ],
+  "burgers": [
+    {
+      "name": "joaquim",
+      "bread": "3 Queijos",
+      "meat": "Alcatra",
+      "optional": [
+        "Bacon",
+        "Cheddar"
+      ],
+      "status": "Em produção",
+      "id": 3
+    },
+    {
+      "name": "Jão",
+      "bread": "Parmesão e Orégano",
+      "meat": "Alcatra",
+      "optional": [
+        "Pepino"
+      ],
+      "status": "Em produção",
+      "id": 5
+    },
+    {
+      "name": "zeca",
+      "bread": "Parmesão e Orégano",
+      "meat": "Veggie burger",
+      "optional": [
+        "Tomate",
+        "Pepino"
+      ],
+      "status": "Solicitado",
+      "id": 6
+    },
+    {
+      "name": "Pedro",
+      "bread": "Italiano Branco",
+      "meat": "Maminha",
+      "optional": [
+        "Salame",
+        "Cheddar"
+      ],
+      "status": "Solicitado",
+      "id": 7
+    },
+    {
+      "name": "Ronaldo",
+      "bread": "Parmesão e Orégano",
+      "meat": "Picanha",
+      "optional": [
+        "Cheddar",
+        "Bacon",
+        "Tomate"
+      ],
+      "status": "Solicitado",
+      "id": 8
+    }
+  ]
+}
